@@ -3,12 +3,12 @@ import React from "react";
 const Navbar =()=>{
     return(
         <nav className="bg-gray-700">
-            <div className="flex justify-between items-center text-white py-6 container mx-auto">
+            <div className="flex justify-between items-center text-white py-3 container mx-auto">
             <div>
-            <h2 className="text-2xl">Tausif Ahmed</h2>
+            <h2 className="text-3xl font-bold">Tausif Ahmed</h2>
             </div>
             <div>
-                <ul className="flex gap-10">
+                <ul className="flex gap-10 font-semibold">
                     <li>Home</li>
                     <li>Projects</li>
                     <li>Service</li>
